@@ -3,114 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Vieira - Desbloqueio de Prosperidade</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        /* Estilos CSS (para este modelo moderno) */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #1a1a1a; /* Fundo escuro */
-            color: white; /* Cor do texto principal clara */
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .hero-section {
-            position: relative;
-            text-align: center;
-            color: white;
-            padding: 100px 20px;
-            background-size: cover;
-            background-position: 40% top; /* AQUI ESTÁ A ALTERAÇÃO */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 75vh;
-        }
-
-        .hero-section::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5); /* Overlay escuro */
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 2;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 40px;
-            color: white; /* Títulos das seções em branco */
-        }
-
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .card {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            color: #333; /* Adicionado: Cor do texto dentro do card para ser visível no fundo branco */
-        }
-
-        .card h3 {
-            color: #007bff; /* Cor de contraste para os títulos dos produtos */
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 12px 24px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-            color: white; /* Cor do texto do botão */
-        }
-
-        .btn-primary {
-            background: linear-gradient(to right, #333, #555); /* Alterado: Fundo cinza degradê */
-        }
-
-        .btn-primary:hover {
-            background: linear-gradient(to right, #555, #333); /* Alterado: Degradê reverso no hover */
-        }
-
-        .btn-whatsapp {
-            background-color: #25d366;
-            color: white;
-        }
-
-        .btn-whatsapp img {
-            vertical-align: middle;
-            margin-right: 8px;
-            width: 20px;
-        }
-
-        /* Responsividade */
-        @media (max-width: 768px) {
-            .product-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-    </style>
 </head>
 <body>
 
@@ -121,45 +15,45 @@
 
     <main class="container">
         <section class="products-section">
-            <h2 class="section-title">Nossos Produtos</h2>
+            <h2 class="section-title animate-on-scroll">Nossos Produtos</h2>
             <div class="product-grid">
-                <div class="card">
+                <div class="card animate-on-scroll">
                     <h3>Imersão Gratuita</h3>
                     <p>5 Princípios para destravar a prosperidade plena.</p>
-                    <a href="#" class="btn btn-primary">Acessar Agora</a>
+                    <a href="#" class="btn btn-primary animate-on-scroll">Acessar Agora</a>
                 </div>
-                <div class="card">
+                <div class="card animate-on-scroll">
                     <h3>Jornada do Código</h3>
                     <p>O programa completo para sua transformação.</p>
-                    <a href="#" class="btn btn-primary">Conheça</a>
+                    <a href="#" class="btn btn-primary animate-on-scroll">Conheça</a>
                 </div>
-                <div class="card">
+                <div class="card animate-on-scroll">
                     <h3>Mentoria</h3>
                     <p>Acompanhamento personalizado para o seu sucesso.</p>
-                    <a href="#" class="btn btn-primary">Agendar</a>
+                    <a href="#" class="btn btn-primary animate-on-scroll">Agendar</a>
                 </div>
             </div>
         </section>
 
         <section class="video-section">
-            <h2 class="section-title">Assista a um Vídeo de Apresentação</h2>
+            <h2 class="section-title animate-on-scroll">Assista a um Vídeo de Apresentação</h2>
             <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
                 <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="URL-DO-SEU-VIDEO" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
 
         <section class="testimonials-section">
-            <h2 class="section-title">O que dizem sobre nós</h2>
+            <h2 class="section-title animate-on-scroll">O que dizem sobre nós</h2>
             <div class="product-grid">
-                <div class="card">
+                <div class="card animate-on-scroll">
                     <p>"A mentoria do Ricardo mudou minha visão sobre finanças e prosperidade. Recomendo muito!"</p>
                     <p><strong>Maria S.</strong></p>
                 </div>
-                <div class="card">
+                <div class="card animate-on-scroll">
                     <p>"A jornada do código é um guia prático e inspirador. Resultados incríveis!"</p>
                     <p><strong>João P.</strong></p>
                 </div>
-                <div class="card">
+                <div class="card animate-on-scroll">
                     <p>"A imersão gratuita já me deu insights valiosos. Mal posso esperar pelos próximos passos."</p>
                     <p><strong>Ana C.</strong></p>
                 </div>
@@ -167,19 +61,19 @@
         </section>
 
         <section class="contact-section" style="text-align: center;">
-            <h2 class="section-title">Fale Conosco</h2>
-            <a href="https://wa.me/SEU-NUMERO" class="btn btn-whatsapp" style="margin: 10px;">
+            <h2 class="section-title animate-on-scroll">Fale Conosco</h2>
+            <a href="https://wa.me/SEU-NUMERO" class="btn btn-whatsapp animate-on-scroll" style="margin: 10px;">
                 <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Icon"/> Fale pelo WhatsApp
             </a>
-            <a href="mailto:SEU-EMAIL" class="btn btn-primary" style="margin: 10px;">
+            <a href="mailto:SEU-EMAIL" class="btn btn-primary animate-on-scroll" style="margin: 10px;">
                 Deixe seu Contato
             </a>
         </section>
 
         <section class="about-section" style="text-align: center;">
-            <h2 class="section-title">Conheça o Mentor: Ricardo Vieira</h2>
-            <img src="Ricardofoto.jpg" alt="Ricardo Vieira" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;">
-            <p>Olá, sou Ricardo Vieira, especialista em desbloqueio de prosperidade. Minha missão é ajudar você a encontrar o seu caminho para a abundância em todas as áreas da vida...</p>
+            <h2 class="section-title animate-on-scroll">Conheça o Mentor: Ricardo Vieira</h2>
+            <img src="Ricardofoto.png" alt="Ricardo Vieira" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;" class="animate-on-scroll">
+            <p class="animate-on-scroll">Olá, sou Ricardo Vieira, especialista em desbloqueio de prosperidade. Minha missão é ajudar você a encontrar o seu caminho para a abundância em todas as áreas da vida...</p>
         </section>
     </main>
 
@@ -187,5 +81,6 @@
         <p>&copy; 2024 Ricardo Vieira. Todos os direitos reservados.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
